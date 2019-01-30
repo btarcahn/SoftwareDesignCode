@@ -66,6 +66,8 @@ public class Card
 	
 	/**
 	 * @return The index in SUITS corresponding to the suit of the card.
+	 * @pre !isJoker()
+
 	 */
 	public Suit getSuit()
 	{
@@ -102,19 +104,11 @@ public class Card
 		if (getClass() != obj.getClass())
 			return false;
 		Card other = (Card) obj;
-		if (aIsJoker != other.aIsJoker)
-			return false;
-		if (aRank == null) {
-			if (other.aRank != null)
-				return false;
-		} else if (!aRank.equals(other.aRank))
-			return false;
-		if (aSuit == null) {
-			if (other.aSuit != null)
-				return false;
-		} else if (!aSuit.equals(other.aSuit))
-			return false;
-		return true;
+		
+		return aIsJoker == other.aIsJoker 
+				&& aRank.equals(other.aRank) 
+				&& aSuit.equals(other.aSuit);
+
 	}
 
 	/**
@@ -123,12 +117,15 @@ public class Card
 	 */
 	public static void main(String[] args)
 	{
-		Card joker = new Card();
-//		joker1.getRank(); // Run-time Exception
+		Card joker1 = new Card();
+		Card joker2 = new Card();
+		System.out.println(joker1.equals(joker2));
 		
 		Card card1 = new Card(Card.Rank.FOUR, Card.Suit.CLUBS);
 		Card card2 = new Card(Card.Rank.FOUR, Card.Suit.CLUBS);
 		System.out.println(card1.equals(card2));
+		System.out.println(joker1.equals(card1));
+
 
 					
 

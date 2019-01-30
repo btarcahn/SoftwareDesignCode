@@ -88,8 +88,8 @@ public class Card
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + (aIsJoker ? 1231 : 1237);
-		result = prime * result + ((aRank == null) ? 0 : aRank.hashCode());
-		result = prime * result + ((aSuit == null) ? 0 : aSuit.hashCode());
+		result = prime * result + aRank.hashCode();
+		result = prime * result + aSuit.hashCode();
 		return result;
 	}
 

@@ -6,14 +6,14 @@ public class CardWithDesign extends Card {
 	
 	Design aStyle;
 
-	public CardWithDesign(Rank pRank, Suit pSuit, Design aStyle) {
+	public CardWithDesign(Rank pRank, Suit pSuit, Design pStyle) {
 		super(pRank, pSuit);
-		this.aStyle = aStyle;
+		this.aStyle = pStyle;
 	}
 	
-	public CardWithDesign(Design aStyle) {
+	public CardWithDesign(Design pStyle) {
 		super();
-		this.aStyle = aStyle;
+		this.aStyle = pStyle;
 	}
 	
 	
@@ -45,8 +45,7 @@ public class CardWithDesign extends Card {
 	 * This is the driver program.
 	 * @param args
 	 */
-	public static void main(String[] args)
-	{
+	public static void main(String[] args){
 		
 		
 		Card card1 = new CardWithDesign(Card.Rank.FOUR, Card.Suit.CLUBS, CardWithDesign.Design.ARTISTIC);

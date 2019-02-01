@@ -1,33 +1,34 @@
 package ca.mcgill.cs.swdesign.m2.demo;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+import ca.mcgill.cs.swdesign.m3.demo.WordStemmer;
+
+
 public class Sentence implements Iterable<Word> {
-	
+	private WordStemmer aStemmer;
 	private String aOriginalSentence;
 	private Map<Integer, Word> aWords; // The key is the position of one word from a sentence.
-	private Comparator<Word> concreteWordComparator; // The strategy to compare two words 
+	private Comparator<Word> aWordComparator; // The strategy to compare two words 
 	
 	public Sentence(String pOrignalSentence) {
 		aOriginalSentence = pOrignalSentence;
+		aStemmer = WordStemmer.getStemmer(WordStemmer.Type.Porter);
 		aWords = new HashMap<>();
+		aWordComparator = Word.getCaseIgnoranceComparator(); // Default comparator 
 		splitSentence();
-		concreteWordComparator = Word.getCaseIgnoranceComparator(); // Default comparator 
 	}
 	
 	private void splitSentence() {
 		String[] wordsInSentence = aOriginalSentence.split("[^a-zA-Z]");
 		int index = 0;
 		for(String wordString:wordsInSentence) {
-			if (wordString.length()>0) {
-				Word word = new Word(wordString);
+			if (wordString.length()>0) {	
+				Word word = new Word(aStemmer.stem(null));	
 				aWords.put(index, word);
 				index ++;
 			}
@@ -58,17 +59,34 @@ public class Sentence implements Iterable<Word> {
 	}
 		
 
-	public Comparator<Word> getConcreteWordComparator() {
-		return concreteWordComparator;
+	public Comparator<Word> getWordComparator() {
+		return aWordComparator;
 	}
 
 	/**
 	 * @param pConcreteWordComparator The comparator defining the strategy to rank two words
-	 * @pre pConcreteWordComparator != null
+	 * @pre pWordComparator != null
 	 */
-	public void setConcreteWordComparator(Comparator<Word> pConcreteWordComparator) {
-		assert pConcreteWordComparator != null;
-		this.concreteWordComparator = pConcreteWordComparator;
+	public void setWordComparator(Comparator<Word> pWordComparator) {
+		assert pWordComparator != null;
+		aWordComparator = pWordComparator;
+	}
+	
+	
+
+	public WordStemmer getStemmer()
+	{
+		return aStemmer;
+	}
+	
+	
+	/**
+	 * @pre stemmer != null
+	 */
+	public void setStemmer(WordStemmer pStemmer)
+	{
+		assert pStemmer != null;
+		this.aStemmer = pStemmer;
 	}
 
 	@Override

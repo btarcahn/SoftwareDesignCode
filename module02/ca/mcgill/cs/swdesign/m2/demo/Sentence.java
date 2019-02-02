@@ -1,8 +1,10 @@
 package ca.mcgill.cs.swdesign.m2.demo;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -23,12 +25,16 @@ public class Sentence implements Iterable<Word> {
 		splitSentence();
 	}
 	
+	/**
+	 * Split the sentence to obtain each token (tokenizatino).
+	 * Currently using any non alphabetic character to split.
+	 */
 	private void splitSentence() {
 		String[] wordsInSentence = aOriginalSentence.split("[^a-zA-Z]");
 		int index = 0;
 		for(String wordString:wordsInSentence) {
 			if (wordString.length()>0) {	
-				Word word = new Word(aStemmer.stem(null));	
+				Word word = new Word(aStemmer.stem(wordString));	
 				aWords.put(index, word);
 				index ++;
 			}
@@ -91,7 +97,8 @@ public class Sentence implements Iterable<Word> {
 
 	@Override
 	public Iterator<Word> iterator() {
-		return aWords.values().iterator();
+		List<Word> wordCopies = new ArrayList<>(aWords.values());
+		return wordCopies.iterator();
 	}
 	
 	/**

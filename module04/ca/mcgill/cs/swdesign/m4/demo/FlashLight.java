@@ -15,10 +15,11 @@ public class FlashLight {
 
 	public void setBrightnessLevel(int pBrightnessLevel) throws IllegalArgumentException
 	{
-		if(pBrightnessLevel > 5 || pBrightnessLevel < 0 )
+		if (pBrightnessLevel > 5 || pBrightnessLevel < 0)
 		{
            throw new IllegalArgumentException("BrightnessLevel should in the range of [0-5].");
 		}
+		this.updateCount();
 		this.brightnessLevel = pBrightnessLevel;
 	}
 
@@ -29,7 +30,6 @@ public class FlashLight {
 
 	public int getBrightnessLevel()
 	{
-		this.updateCount();
 		return this.brightnessLevel;
 	}
 

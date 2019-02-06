@@ -7,7 +7,6 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.Icon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -91,8 +90,6 @@ class HandPanel extends JPanel
 	
 	private static final long serialVersionUID = 1L;
 
-	private static final int SHIFT = 30;
-	
 	private JLabel aLabel = new JLabel();
 	
 	/**

@@ -78,19 +78,22 @@ public class TestFlashLight
 	}
 
 	@Test
-	public void testSetBrightnessLevel() {
+	public void testSetBrightnessLevel()
+	{
 		this.flashLight.setBrightnessLevel(5);
 		assertEquals(5, this.flashLight.getBrightnessLevel());
 	}
-	
+
 	@Test(expected = IllegalArgumentException.class)
-	public void testSetBrightnessLevelException_1() {
+	public void testSetBrightnessLevelException_1()
+	{
 		this.flashLight.setBrightnessLevel(100);
 		assertEquals(2, this.flashLight.getBrightnessLevel());
 	}
-	
+
 	@Test
-	public void testSetBrightnessLevelException_2() {
+	public void testSetBrightnessLevelException_2()
+	{
 		try
 		{
 			this.flashLight.setBrightnessLevel(100);

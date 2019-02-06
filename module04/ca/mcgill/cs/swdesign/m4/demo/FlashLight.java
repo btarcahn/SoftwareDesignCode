@@ -13,18 +13,22 @@ public class FlashLight {
 		this.brightnessLevel = 0;
 	}
 
-	public void setBrightnessLevel(int pBrightnessLevel) throws IllegalArgumentException {
-		if(pBrightnessLevel > 5 || pBrightnessLevel < 0 ) {
+	public void setBrightnessLevel(int pBrightnessLevel) throws IllegalArgumentException
+	{
+		if(pBrightnessLevel > 5 || pBrightnessLevel < 0 )
+		{
            throw new IllegalArgumentException("BrightnessLevel should in the range of [0-5].");
 		}
 		this.brightnessLevel = pBrightnessLevel;
 	}
 
-	private void updateCount() {
+	private void updateCount()
+	{
 		this.count = this.countUpdateStrategy.update(this.count);
 	}
 
-	public int getBrightnessLevel() {
+	public int getBrightnessLevel()
+	{
 		this.updateCount();
 		return this.brightnessLevel;
 	}

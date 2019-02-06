@@ -21,22 +21,9 @@ public class TestFlashLight
 	}
 
 	@Test
-	public void testUpdateCount() throws IllegalAccessException
+	public void testUpdateCount() throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException
 	{
-		Class<? extends FlashLight> counter = this.flashLight.getClass();
-
-		Method updateCountMethod;
-		try
-		{
-			updateCountMethod = counter.getDeclaredMethod("updateCount");
-			updateCountMethod.setAccessible(true);
-			try
-			{
-				updateCountMethod.invoke(this.flashLight);
-			}
-			catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) { fail(); }
-		}
-		catch (NoSuchMethodException | SecurityException e) { fail(); }
+		Class<? extends FlashLight> flashLightClass = this.flashLight.getClass();
 
 		Field countUpdateStrategyField;
 		try
@@ -53,29 +40,37 @@ public class TestFlashLight
 			}
 			StubCountUpdateStrategy countUpdateStrategy = new StubCountUpdateStrategy();
 
-			countUpdateStrategyField = counter.getDeclaredField("countUpdateStrategy");
+			countUpdateStrategyField = flashLightClass.getDeclaredField("countUpdateStrategy");
 			countUpdateStrategyField.setAccessible(true);
-//			try
-//			{
-				countUpdateStrategyField.set(counter, countUpdateStrategy);
-//			}
-//			catch (IllegalArgumentException | IllegalAccessException e1) { fail(); }
 			try
 			{
-				assertEquals(countUpdateStrategyField.get(this.flashLight), 1);
+				countUpdateStrategyField.set(this.flashLight, countUpdateStrategy);
 			}
-			catch (IllegalArgumentException | IllegalAccessException e) { fail(); }
+			catch (IllegalArgumentException | IllegalAccessException e1) { fail(); }
 		}
 		catch (NoSuchFieldException | SecurityException e) { fail(); }
+
+		Method updateCountMethod;
+		try
+		{
+			updateCountMethod = flashLightClass.getDeclaredMethod("updateCount");
+			updateCountMethod.setAccessible(true);
+			try
+			{
+				updateCountMethod.invoke(this.flashLight);
+			}
+			catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) { fail(); }
+		}
+		catch (NoSuchMethodException | SecurityException e) { fail(); }
 
 		Field countField;
 		try
 		{
-			countField = counter.getField("count");
+			countField = flashLightClass.getDeclaredField("count");
 			countField.setAccessible(true);
 			try
 			{
-				assertEquals(countField.get(this.flashLight), 1);
+				assertEquals(1, countField.get(this.flashLight));
 			}
 			catch (IllegalArgumentException | IllegalAccessException e) { fail(); }
 		}
@@ -104,13 +99,3 @@ public class TestFlashLight
 		catch (IllegalArgumentException e) {}
 	}
 }
-
-//@Test
-//public void testAutoPlay() throws Exception
-//{
-//	...
-//   Field strategyField = GameEngine.class.getDeclaredField("aStrategy");
-//   strategyField.setAccessible(true);
-//   StubStrategy strategy = new StubStrategy();
-//   GameEngine engine = GameEngine.instance();
-//   strategyField.set(engine, strategy);

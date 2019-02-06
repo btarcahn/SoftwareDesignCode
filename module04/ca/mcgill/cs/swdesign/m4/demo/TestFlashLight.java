@@ -21,7 +21,7 @@ public class TestFlashLight
 	}
 
 	@Test
-	public void testUpdateCount() throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException
+	public void testUpdateCount()
 	{
 		Class<? extends FlashLight> flashLightClass = this.flashLight.getClass();
 

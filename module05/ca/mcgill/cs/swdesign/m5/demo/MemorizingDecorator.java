@@ -15,7 +15,9 @@ public class MemorizingDecorator implements CardSource, Iterable<Card>
 	private final CardSource aCardSource;
 	private final List<Card> aDrawnCards = new ArrayList<>(); 
 
-	
+	/**
+	 * @param pCardSource the decorated card source.
+	 */
 	public MemorizingDecorator(CardSource pCardSource) 
 	{
 		aCardSource = pCardSource;

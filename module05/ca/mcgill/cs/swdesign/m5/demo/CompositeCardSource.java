@@ -42,7 +42,6 @@ public class CompositeCardSource implements CardSource
 	 * Add children to the CardSource composite.
 	 * @param pCardSource 
 	 */
-	
 	public void add(CardSource pCardSource) 
 	{
 		aElements.add(pCardSource);

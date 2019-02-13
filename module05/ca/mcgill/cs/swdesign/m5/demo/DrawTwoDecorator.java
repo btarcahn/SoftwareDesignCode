@@ -12,6 +12,9 @@ public class DrawTwoDecorator implements CardSource
 {
 	private final CardSource aCardSource;
 	
+	/**
+	 * @param pCardSource the decorated card source.
+	 */
 	public DrawTwoDecorator(CardSource pCardSource) 
 	{
 		aCardSource = pCardSource;

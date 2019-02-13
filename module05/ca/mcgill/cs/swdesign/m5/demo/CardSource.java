@@ -20,5 +20,6 @@ public interface CardSource
 	 */
 	int size();
 	
+	
 }
 

@@ -15,7 +15,11 @@ public class MemorizingDeck implements CardSource
 	private final List<Card> aCards;
 	private final List<Card> aDrawnCards = new ArrayList<>();
 
-	public MemorizingDeck(List<Card> pCards) {
+	/** 
+	 * @param pCards Card sequence to initialize the deck
+	 */
+	public MemorizingDeck(List<Card> pCards) 
+	{
 		aCards = new ArrayList<Card>(pCards);
 	}
 	@Override

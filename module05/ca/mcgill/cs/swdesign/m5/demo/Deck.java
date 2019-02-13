@@ -6,10 +6,18 @@ import java.util.List;
 
 import ca.mcgill.cs.swdesign.m2.Card;
 
+/**
+ * 
+ * Standard Deck with 52 cards.
+ *
+ */
 public class Deck implements CardSource
 {
 	private List<Card> aCards;
 
+	/**
+	 * Initialization is done in the constructor to reduce unnecessary object states.
+	 */
 	public Deck() 
 	{
 		aCards = new  ArrayList<>();

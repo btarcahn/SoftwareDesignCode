@@ -10,10 +10,10 @@ import ca.mcgill.cs.swdesign.m2.Card;
  * Enable attaching additional responsibility of 
  * memorizing card drawn to CardSource dynamically.
  */
-public class MemorizingDecorator implements CardSource, Iterable<Card>
+public class MemorizingDecorator implements CardSource
 {
-	private final CardSource aCardSource;
-	private final List<Card> aDrawnCards = new ArrayList<>(); 
+	private CardSource aCardSource;
+	private List<Card> aDrawnCards = new ArrayList<>(); 
 
 	/**
 	 * @param pCardSource the decorated card source.
@@ -38,9 +38,28 @@ public class MemorizingDecorator implements CardSource, Iterable<Card>
 	}
 
 	@Override
-	public Iterator<Card> iterator()
+	public CardSource clone() 
+	{
+		MemorizingDecorator clone;
+		try
+		{
+			clone = (MemorizingDecorator)super.clone();
+			clone.aCardSource = aCardSource.clone();
+			clone.aDrawnCards = new ArrayList<Card>(aDrawnCards);
+			return clone;
+		}
+		catch (CloneNotSupportedException e)
+		{
+			assert false;
+			return null;
+		} 
+		
+	}
+	
+	public Iterator<Card> getDrawnCards()
 	{
 		return aDrawnCards.iterator();
 	}
-
+	
+	
 }

@@ -31,7 +31,6 @@ public class ShiftedIcon implements Icon
 	@Override
 	public int getIconWidth()
 	{
-		// TODO Auto-generated method stub
 		return aShiftedIcon.getIconWidth() + aX;
 	}
 

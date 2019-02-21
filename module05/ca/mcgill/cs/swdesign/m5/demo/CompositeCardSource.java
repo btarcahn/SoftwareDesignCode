@@ -44,7 +44,29 @@ public class CompositeCardSource implements CardSource
 	 */
 	public void add(CardSource pCardSource) 
 	{
-		aElements.add(pCardSource);
+		if(!aElements.contains(pCardSource))
+			aElements.add(pCardSource);
 	}
-
+	
+	@Override
+	public CardSource clone() 
+	{
+		CompositeCardSource clone;
+		try
+		{
+			clone = (CompositeCardSource)super.clone();
+			clone.aElements = new ArrayList<>();
+			for (CardSource cs:aElements) 
+			{
+				clone.aElements.add(cs.clone());
+			}
+			return clone;
+		}
+		catch (CloneNotSupportedException e)
+		{
+			assert false;
+			return null;
+		} 
+		
+	}
 }

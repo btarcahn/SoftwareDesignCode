@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ca.mcgill.cs.swdesign.m2.Card;
+import ca.mcgill.cs.swdesign.m2.Card.Rank;
+import ca.mcgill.cs.swdesign.m2.Card.Suit;
 
 /**
  * 
@@ -13,7 +15,7 @@ import ca.mcgill.cs.swdesign.m2.Card;
  */
 public class CardSequence implements CardSource
 {
-	private final List<Card> aCards;
+	private List<Card> aCards;
 	
 	/** 
 	 * @param pCards Card sequence to initialize the deck
@@ -34,6 +36,23 @@ public class CardSequence implements CardSource
 	public int size()
 	{
 		return aCards.size();
+	}
+	
+	@Override
+	public CardSource clone() {
+		CardSequence clone;
+		try
+		{
+			clone = (CardSequence)super.clone();
+			clone.aCards = new ArrayList<>(aCards);
+			return clone;
+		}
+		catch (CloneNotSupportedException e)
+		{
+			assert false;
+			return null;
+		} 
+		
 	}
 
 

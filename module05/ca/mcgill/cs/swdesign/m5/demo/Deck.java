@@ -3,6 +3,7 @@ package ca.mcgill.cs.swdesign.m5.demo;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 import ca.mcgill.cs.swdesign.m2.Card;
 
@@ -13,14 +14,13 @@ import ca.mcgill.cs.swdesign.m2.Card;
  */
 public class Deck implements CardSource
 {
-	private List<Card> aCards;
+	private List<Card> aCards = new ArrayList<>();
 
 	/**
 	 * Initialization is done in the constructor to reduce unnecessary object states.
 	 */
 	public Deck() 
 	{
-		aCards = new  ArrayList<>();
 		shuffle();
 	}
 	
@@ -40,6 +40,7 @@ public class Deck implements CardSource
 		Collections.shuffle(aCards);
 	}
 	
+	
 	@Override
 	public Card draw()
 	{
@@ -53,6 +54,59 @@ public class Deck implements CardSource
 	public int size()
 	{
 		return aCards.size();
+	}
+	
+	
+	public CardSourceCommand getShuffleCommand() 
+	{
+		
+		return new CardSourceCommand() 
+			{
+				final List<Card> aCardsCopy = new ArrayList<>();
+				
+				@Override
+				public Optional<Card> execute() 
+				{
+					for (Card card:aCards) 
+					{
+						aCardsCopy.add(card);
+					}
+					shuffle();
+					return Optional.empty();
+				}
+				
+				@Override
+				public void undo() 
+				{
+					if (aCardsCopy.size()>0)
+					{
+						aCards.clear();
+						for (Card card:aCardsCopy) 
+						{
+							aCards.add(card);
+						}
+						aCardsCopy.clear();
+					}
+				}
+		};
+	}
+	
+	@Override
+	public CardSource clone() 
+	{
+		Deck clone;
+		try
+		{
+			clone = (Deck)super.clone();
+			clone.aCards = new ArrayList<>(aCards);
+			return clone;
+		}
+		catch (CloneNotSupportedException e)
+		{
+			assert false;
+			return null;
+		} 
+		
 	}
 	
 }

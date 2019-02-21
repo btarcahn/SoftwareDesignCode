@@ -5,7 +5,7 @@ import ca.mcgill.cs.swdesign.m2.Card;
 /**
  * Primitive for representing card sources.
  */
-public interface CardSource
+public interface CardSource extends Cloneable
 {
 	/**
 	 * Remove a card from the source and return it.
@@ -19,7 +19,8 @@ public interface CardSource
 	 * @return The number of cards in the source.
 	 */
 	int size();
-	
-	
+
+	CardSource clone();
+
 }
 

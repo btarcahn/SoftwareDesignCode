@@ -1,6 +1,8 @@
 package ca.mcgill.cs.swdesign.m5.demo;
 
 
+import java.util.ArrayList;
+
 import ca.mcgill.cs.swdesign.m2.Card;
 
 /**
@@ -10,7 +12,7 @@ import ca.mcgill.cs.swdesign.m2.Card;
  */
 public class DrawTwoDecorator implements CardSource
 {
-	private final CardSource aCardSource;
+	private CardSource aCardSource;
 	
 	/**
 	 * @param pCardSource the decorated card source.
@@ -34,10 +36,8 @@ public class DrawTwoDecorator implements CardSource
 			}
 			return card2;
 		} 
-		else 
-		{
-			return card1;
-		}
+		
+		return card1;
 	}
 
 	@Override
@@ -45,5 +45,24 @@ public class DrawTwoDecorator implements CardSource
 	{
 		return aCardSource.size();
 	}
+	
+	@Override
+	public CardSource clone() 
+	{
+		DrawTwoDecorator clone;
+		try
+		{
+			clone = (DrawTwoDecorator)super.clone();
+			clone.aCardSource = aCardSource.clone();
+			return clone;
+		}
+		catch (CloneNotSupportedException e)
+		{
+			assert false;
+			return null;
+		} 
+		
+	}
+	
 
 }

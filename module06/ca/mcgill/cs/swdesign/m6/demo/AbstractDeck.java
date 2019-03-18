@@ -1,4 +1,4 @@
-package ca.mgill.cs.swdesign.m6.demo;
+package ca.mcgill.cs.swdesign.m6.demo;
 
 import ca.mcgill.cs.swdesign.m2.Card;
 import ca.mcgill.cs.swdesign.m5.demo.CardSource;

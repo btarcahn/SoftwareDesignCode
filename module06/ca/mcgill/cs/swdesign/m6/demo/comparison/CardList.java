@@ -1,4 +1,4 @@
-package ca.mgill.cs.swdesign.m6.demo.comparison;
+package ca.mcgill.cs.swdesign.m6.demo.comparison;
 
 import java.util.AbstractList;
 import java.util.ArrayList;

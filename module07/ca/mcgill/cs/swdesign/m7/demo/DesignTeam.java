@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DesignTeam implements ApplicationObserver
 {
-	List<JobSeeker> aCandidate;
+	private List<JobSeeker> aCandidate;
 
 	DesignTeam()
 	{

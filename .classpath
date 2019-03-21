@@ -8,6 +8,9 @@
 	<classpathentry kind="src" path="module05"/>
 	<classpathentry kind="src" path="module06"/>
 	<classpathentry kind="src" path="images"/>
+	<classpathentry kind="src" path="module07"/>
+	<classpathentry kind="src" path="module09"/>
+	<classpathentry kind="src" path="module08"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="external/opennlp-tools-1.9.1.jar"/>

@@ -6,6 +6,16 @@ package ca.mcgill.cs.swdesign.m1;
  */
 public class Card7
 {
+	private boolean aIsJoker;
+
+	public boolean isJoker() {
+		return aIsJoker;
+	}
+
+	public void setIsJoker(boolean pIsJoker) {
+		aIsJoker = pIsJoker;
+	}
+
 	/**
  	 * A card's rank.
 	 */

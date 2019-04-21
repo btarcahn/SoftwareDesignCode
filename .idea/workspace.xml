@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a941409-7609-44a7-a0b8-90d594d80c7b" name="Default Changelist" comment="finished module00 setup assignment">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+    <list default="true" id="8a941409-7609-44a7-a0b8-90d594d80c7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module00/ca/mcgill/cs/swdesign/m0/demo/AlternatingLabelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/module00/ca/mcgill/cs/swdesign/m0/demo/AlternatingLabelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m0/demo/AlternatingLabelProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m0/demo/AlternatingLabelProvider.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +19,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module00/ca/mcgill/cs/swdesign/m0/demo/AlternatingLabelProvider.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="221">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,12 +77,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/module00/ca/mcgill/cs/swdesign/m0/demo/AlternatingLabelProvider.java" />
+        <option value="$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="31" />
+    <option name="x" value="108" />
+    <option name="y" value="5" />
     <option name="width" value="1269" />
     <option name="height" value="730" />
   </component>
@@ -65,20 +103,13 @@
             <path>
               <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
-              <item name="module00" type="462c0819:PsiDirectoryNode" />
+              <item name="module01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
-              <item name="module00" type="462c0819:PsiDirectoryNode" />
-              <item name="swdesign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
-              <item name="module00" type="462c0819:PsiDirectoryNode" />
-              <item name="swdesign" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="module01" type="462c0819:PsiDirectoryNode" />
+              <item name="m1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,7 +147,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestAlternatingLabelProvider">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m1.Client" />
+      <module name="SoftwareDesignCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcgill.cs.swdesign.m1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Welcome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m0.demo.Welcome" />
       <module name="SoftwareDesignCode" />
@@ -155,6 +199,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.TestAlternatingLabelProvider" />
         <item itemvalue="Application.Welcome" />
         <item itemvalue="JUnit.All in SoftwareDesignCode" />
@@ -172,8 +217,16 @@
       <option name="presentableId" value="Default" />
       <updated>1555885395553</updated>
       <workItem from="1555885397444" duration="902000" />
-      <workItem from="1555886453088" duration="928000" />
+      <workItem from="1555886453088" duration="1413000" />
     </task>
+    <task id="LOCAL-00001" summary="finished module00 setup assignment">
+      <created>1555887398646</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555887398646</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -183,14 +236,18 @@
     <history-entry file="TestAlternatingLabelProvider - 2019.04.21 at 18h 29m 32s.xml">
       <configuration name="TestAlternatingLabelProvider" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestAlternatingLabelProvider - 2019.04.21 at 18h 52m 42s.xml">
+      <configuration name="TestAlternatingLabelProvider" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1830000" />
+    <option name="totallyTimeSpent" value="2315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="31" width="1269" height="730" extended-state="0" />
+    <frame x="108" y="5" width="1269" height="730" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26468155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26468155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -201,7 +258,7 @@
       <window_info anchor="bottom" id="CheckStyle" weight="0.08362369" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11672474" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.75958186" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -210,9 +267,9 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.630662" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.05226481" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.05226481" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3292683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -264,11 +321,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module00/ca/mcgill/cs/swdesign/m0/demo/AlternatingLabelProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="527">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
         </state>
       </provider>

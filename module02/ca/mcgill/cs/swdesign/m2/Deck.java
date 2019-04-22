@@ -3,6 +3,7 @@ package ca.mcgill.cs.swdesign.m2;
 import java.io.StringWriter;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Stack;
 
 import ca.mcgill.cs.swdesign.m2.Card.Rank;
@@ -23,15 +24,13 @@ public class Deck
 	
 	public void sortBySuit()
 	{
-		Collections.sort(aCards, (o1,o2) ->
-			o1.getSuit().compareTo(o2.getSuit())
+		Collections.sort(aCards, Comparator.comparing(Card::getSuit)
 			);
 	}
 	
 	public void sortByRank()
 	{
-		Collections.sort(aCards, (o1,o2) ->
-		o1.getRank().compareTo(o2.getRank())
+		Collections.sort(aCards, Comparator.comparing(Card::getRank)
 		);
 	}
 	

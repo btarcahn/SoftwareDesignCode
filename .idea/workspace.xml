@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a941409-7609-44a7-a0b8-90d594d80c7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/MultiDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/MultiDeck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card7.java" beforeDir="false" afterPath="$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m1/Card7$Rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m1/Card7$Rank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m1/Card7$Suit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m1/Card7$Suit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m1/Card7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m1/Card7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m2/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m2/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m2/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m2/Hand.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,24 +25,33 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Deck.java">
+        <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Hand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="1700">
+              <caret line="111" column="4" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+              <folding>
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1990#1991#0" expanded="true" />
+                <element signature="e#2027#2028#0" expanded="true" />
+                <element signature="e#2243#2244#0" expanded="true" />
+                <element signature="e#2289#2290#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/MultiDeck.java">
+        <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="146">
+              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -70,6 +83,10 @@
         <option value="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/demo/MultiDeck.java" />
         <option value="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/MultiDeck.java" />
         <option value="$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/MultiDeck.java" />
+        <option value="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Hand.java" />
+        <option value="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/ExtendedGame.java" />
+        <option value="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Game.java" />
+        <option value="$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Deck.java" />
       </list>
     </option>
   </component>
@@ -96,12 +113,6 @@
               <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
               <item name="module01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
-              <item name="module01" type="462c0819:PsiDirectoryNode" />
-              <item name="m1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
@@ -241,7 +252,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555885395553</updated>
       <workItem from="1555885397444" duration="902000" />
-      <workItem from="1555886453088" duration="3771000" />
+      <workItem from="1555886453088" duration="7041000" />
     </task>
     <task id="LOCAL-00001" summary="finished module00 setup assignment">
       <created>1555887398646</created>
@@ -257,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555887976887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed all-module01">
+      <created>1555890318981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555890318981</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -272,13 +290,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4673000" />
+    <option name="totallyTimeSpent" value="7943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="108" y="5" width="1269" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26468155" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26468155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -289,7 +307,7 @@
       <window_info anchor="bottom" id="CheckStyle" weight="0.08362369" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15505226" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24738675" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,7 +316,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.630662" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.05226481" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.12891985" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3292683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -319,7 +337,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished module00 setup assignment" />
     <MESSAGE value="completed e01-module01" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed e01-module01" />
+    <MESSAGE value="completed all-module01" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed all-module01" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftwareDesignCode$TestAlternatingLabelProvider.ic" NAME="TestAlternatingLabelProvider Coverage Results" MODIFIED="1555885732385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -416,20 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -450,6 +455,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/MultiDeck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -457,15 +474,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/MultiDeck.java">
+    <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/EmptyDeckException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="111" column="4" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/ExtendedGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module02/ca/mcgill/cs/swdesign/m2/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>

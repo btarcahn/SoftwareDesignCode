@@ -5,7 +5,7 @@ public class InterruptedThread
 
 	public static void main(String[] args) throws InterruptedException
 	{
-		int inputLength = 100000;
+		int inputLength = 100;
 		Thread main = Thread.currentThread();
 		Thread t1 = new Thread( new Runnable()
 		{

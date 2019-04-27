@@ -42,7 +42,7 @@ public class JoiningHands
 		t1.start();
 		t2.start();
 //		t1.interrupt(); // Uncomment and t2 will synchronize on t1's abnormally quick termination
-//		t2.interrupt(); // Uncomment and t2 will be interrupted, but t1 will remain oblivious and terminate normally
+		t2.interrupt(); // Uncomment and t2 will be interrupted, but t1 will remain oblivious and terminate normally
 		System.out.println("Main completed normally");
 	}
 }

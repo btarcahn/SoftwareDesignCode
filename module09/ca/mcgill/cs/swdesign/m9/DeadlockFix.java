@@ -15,7 +15,10 @@ public class DeadlockFix
         public String getName() {
             return this.name;
         }
-        
+        /**
+         * @param bower
+         * @return true if the lock is acquired
+         */
         private boolean checkLock(Friend bower) {
         	boolean myLock = this.lock.tryLock();
         	boolean friendLock = bower.lock.tryLock();
@@ -25,7 +28,7 @@ public class DeadlockFix
         		this.lock.unlock();
         	else if (friendLock)
         		bower.lock.unlock();
-        	System.out.printf("Thread %s fails to abtain locks \n", Thread.currentThread().toString());
+        	System.out.printf("Thread %s fails to obtain locks \n", Thread.currentThread().toString());
         	return false;
         }
        
@@ -37,7 +40,7 @@ public class DeadlockFix
 		                + "  has bowed to me!%n", 
 		                this.name, bower.getName());
 		            bower.bowBack(this);
-		        	System.out.printf("Thread %s succeeds to abtain locks \n", Thread.currentThread().toString());
+		        	System.out.printf("Thread %s succeeds to obtain locks \n", Thread.currentThread().toString());
         		} finally {
         			this.lock.unlock();
                 	bower.lock.unlock();
@@ -55,12 +58,9 @@ public class DeadlockFix
     public static void main(String[] args) throws InterruptedException {
         final Friend alphonse = new Friend("Alphonse");
         final Friend gaston = new Friend("Gaston");
-        new Thread(new Runnable() {
-            public void run() { alphonse.bow(gaston); }
-        }).start();
+        new Thread(() -> alphonse.bow(gaston)).start();
         Thread.currentThread().sleep(1);
-        new Thread(new Runnable() {
-            public void run() { gaston.bow(alphonse); }
-        }).start();
+        new Thread(() -> gaston.bow(alphonse)).start();
+
     }
 }

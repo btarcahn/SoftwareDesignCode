@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a941409-7609-44a7-a0b8-90d594d80c7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/AssignmentNineMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/NumberBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/NumberIncrementer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/FamilyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/Deadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/Deadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/DeadlockFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/DeadlockFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/Deadlock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/Deadlock$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/Deadlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/Deadlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/DeadlockFix$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/DeadlockFix$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/DeadlockFix$Friend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/DeadlockFix$Friend.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/DeadlockFix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/DeadlockFix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/btran8/AtomicCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/btran8/AtomicCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/btran8/AtomicSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/btran8/AtomicSolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/OrgNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/OrgNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/WaitToBeReady.java" beforeDir="false" afterPath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/WaitToBeReady.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/WaitToBeReady$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/WaitToBeReady$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/WaitToBeReady.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/WaitToBeReady.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +24,58 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2038#2039#0" expanded="true" />
+                <element signature="e#2079#2080#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/FamilyApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/PrintVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,14 +114,21 @@
         <option value="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/AssignmentNineMainClass.java" />
         <option value="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/NumberIncrementer.java" />
         <option value="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/NumberBox.java" />
+        <option value="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/WaitToBeReady.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/OrgNode.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/package-info.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitable.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitor.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/FamilyApp.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/PrintVisitor.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="81" />
-    <option name="y" value="11" />
     <option name="width" value="1269" />
-    <option name="height" value="730" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -99,6 +146,39 @@
             <path>
               <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
+              <item name="module08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
+              <item name="module08" type="462c0819:PsiDirectoryNode" />
+              <item name="m8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
+              <item name="module08" type="462c0819:PsiDirectoryNode" />
+              <item name="m8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
+              <item name="module08" type="462c0819:PsiDirectoryNode" />
+              <item name="m8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="Person.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
+              <item name="module08" type="462c0819:PsiDirectoryNode" />
+              <item name="m8" type="462c0819:PsiDirectoryNode" />
+              <item name="OrgNode.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
               <item name="module09" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -106,13 +186,6 @@
               <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
               <item name="module09" type="462c0819:PsiDirectoryNode" />
               <item name="m9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
-              <item name="module09" type="462c0819:PsiDirectoryNode" />
-              <item name="m9" type="462c0819:PsiDirectoryNode" />
-              <item name="DistributedComputation.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -161,39 +234,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AssignmentNineMainClass">
+  <component name="RunManager" selected="Application.FamilyApp">
     <configuration name="AssignmentNineMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m9.assignment.AssignmentNineMainClass" />
       <module name="SoftwareDesignCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.mcgill.cs.swdesign.m9.assignment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtomicOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m9.btran8.AtomicOrNot" />
-      <module name="SoftwareDesignCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.mcgill.cs.swdesign.m9.btran8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtomicSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m9.btran8.AtomicSolution" />
-      <module name="SoftwareDesignCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.mcgill.cs.swdesign.m9.btran8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,13 +274,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FamilyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m8.learn.FamilyApp" />
+      <module name="SoftwareDesignCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcgill.cs.swdesign.m8.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitToBeReady" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m9.WaitToBeReady" />
+      <module name="SoftwareDesignCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcgill.cs.swdesign.m9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FamilyApp" />
+        <item itemvalue="Application.WaitToBeReady" />
         <item itemvalue="Application.AssignmentNineMainClass" />
         <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.DeadlockFix" />
-        <item itemvalue="Application.AtomicSolution" />
-        <item itemvalue="Application.AtomicOrNot" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +328,9 @@
       <workItem from="1556392963044" duration="6498000" />
       <workItem from="1556399752568" duration="90000" />
       <workItem from="1556488901553" duration="3402000" />
-      <workItem from="1556562258596" duration="8830000" />
+      <workItem from="1556562258596" duration="10222000" />
+      <workItem from="1556579753289" duration="3198000" />
+      <workItem from="1556584513732" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="finished module00 setup assignment">
       <created>1555887398646</created>
@@ -285,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555893617829</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added exercise 1, module 09">
+      <created>1556571611770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556571611770</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -300,12 +382,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34478000" />
+    <option name="totallyTimeSpent" value="40527000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="11" width="1269" height="730" extended-state="1" />
+    <frame x="81" y="0" width="1269" height="775" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28701407" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2969396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -315,7 +398,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05226481" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28432956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,7 +466,8 @@
     <MESSAGE value="completed e01-module01" />
     <MESSAGE value="completed all-module01" />
     <MESSAGE value="completed upto-e03-module02" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed upto-e03-module02" />
+    <MESSAGE value="added exercise 1, module 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="added exercise 1, module 09" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftwareDesignCode$TestAlternatingLabelProvider.ic" NAME="TestAlternatingLabelProvider Coverage Results" MODIFIED="1555885732385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -624,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/NumberBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/assignment/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -684,6 +761,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/WaitToBeReady.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/SearchVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/OrgNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/DefaultVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/PrintVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/McGill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/IVisitable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/FamilyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/PrintVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>

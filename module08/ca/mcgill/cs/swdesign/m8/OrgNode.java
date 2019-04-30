@@ -57,8 +57,8 @@ class University extends OrgNode
 
 class Faculty extends OrgNode
 {
-	private final List<Department> aDepts = new ArrayList<Department>();
-	private final List<Committee> aCommittees = new ArrayList<Committee>();
+	private final List<Department> aDepts = new ArrayList<>();
+	private final List<Committee> aCommittees = new ArrayList<>();
 	
 	public Faculty(String pName) { super(pName); }
 	public void addDepartment(Department pDepartment) { aDepts.add(pDepartment); }

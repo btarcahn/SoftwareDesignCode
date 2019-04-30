@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a941409-7609-44a7-a0b8-90d594d80c7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/FamilyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/AbstractFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/FileInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/PrintVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/SymLink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/OrgNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/OrgNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/WaitToBeReady.java" beforeDir="false" afterPath="$PROJECT_DIR$/module09/ca/mcgill/cs/swdesign/m9/WaitToBeReady.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/WaitToBeReady$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/WaitToBeReady$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/WaitToBeReady.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SoftwareDesignCode/ca/mcgill/cs/swdesign/m9/WaitToBeReady.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,45 +22,83 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/AbstractFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+            <state relative-caret-position="425">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2038#2039#0" expanded="true" />
-                <element signature="e#2079#2080#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/FamilyApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/PrintVisitor.java">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/SymLink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/FileInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Visitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/PrintVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -122,10 +156,18 @@
         <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/FamilyApp.java" />
         <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java" />
         <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/PrintVisitor.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Nameable.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Visitable.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/FileInterface.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/AbstractFile.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Visitor.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/PrintVisitor.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/SymLink.java" />
+        <option value="$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Client.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="81" />
     <option name="width" value="1269" />
     <option name="height" value="775" />
@@ -159,15 +201,7 @@
               <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
               <item name="module08" type="462c0819:PsiDirectoryNode" />
               <item name="m8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftwareDesignCode" type="462c0819:PsiDirectoryNode" />
-              <item name="module08" type="462c0819:PsiDirectoryNode" />
-              <item name="m8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="Person.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="filesystem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftwareDesignCode" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FamilyApp">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="AssignmentNineMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m9.assignment.AssignmentNineMainClass" />
       <module name="SoftwareDesignCode" />
@@ -248,12 +282,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m9.Deadlock" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m8.filesystem.Client" />
       <module name="SoftwareDesignCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.mcgill.cs.swdesign.m9.*" />
+          <option name="PATTERN" value="ca.mcgill.cs.swdesign.m8.filesystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,8 +295,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadlockFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m9.DeadlockFix" />
+    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcgill.cs.swdesign.m9.Deadlock" />
       <module name="SoftwareDesignCode" />
       <extension name="coverage">
         <pattern>
@@ -302,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.FamilyApp" />
         <item itemvalue="Application.WaitToBeReady" />
         <item itemvalue="Application.AssignmentNineMainClass" />
         <item itemvalue="Application.Deadlock" />
-        <item itemvalue="Application.DeadlockFix" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +364,7 @@
       <workItem from="1556488901553" duration="3402000" />
       <workItem from="1556562258596" duration="10222000" />
       <workItem from="1556579753289" duration="3198000" />
-      <workItem from="1556584513732" duration="1459000" />
+      <workItem from="1556584513732" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="finished module00 setup assignment">
       <created>1555887398646</created>
@@ -382,7 +416,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40527000" />
+    <option name="totallyTimeSpent" value="43762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="0" width="1269" height="775" extended-state="0" />
@@ -398,7 +432,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28432956" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27948305" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,7 +441,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.630662" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.38535032" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.1615509" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3292683" />
       <window_info anchor="bottom" id="CheckStyle" order="14" weight="0.08362369" />
@@ -423,7 +457,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28701407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2969396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -433,8 +467,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05226481" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.048465267" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -475,41 +509,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module00/ca/mcgill/cs/swdesign/m0/demo/TestAlternatingLabelProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.checkstyle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module00/ca/mcgill/cs/swdesign/m0/demo/Welcome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1137">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module00/ca/mcgill/cs/swdesign/m0/demo/AlternatingLabelProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module01/ca/mcgill/cs/swdesign/m1/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -824,17 +823,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitable.java">
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="276">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -855,22 +852,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Person.java">
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/learn/PrintVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Visitable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/PrintVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/FileInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/AbstractFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/SymLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module08/ca/mcgill/cs/swdesign/m8/filesystem/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
